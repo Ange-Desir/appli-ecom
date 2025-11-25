@@ -1,0 +1,38 @@
+:root {
+    --base: #101828;
+    --accent: #c0392b;
+    font-family: "Montserrat", "Helvetica Neue", sans-serif;
+}
+
+html, body, [class*="st-"] {
+    font-family: "Montserrat", "Helvetica Neue", sans-serif;
+    color: var(--base);
+    background-color: rgba(16, 24, 40, 0.03);
+}
+
+section.main > div {
+    padding: 1.5rem 2rem;
+}
+
+.stButton>button, .stDownloadButton>button {
+    background-color: var(--base);
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+}
+
+.stButton>button:hover, .stDownloadButton>button:hover {
+    background-color: var(--accent);
+    color: var(--base);
+}
+
+.card {
+    border: 1px solid rgba(16, 24, 40, 0.2);
+    border-radius: 10px;
+    padding: 1rem;
+    background: rgba(16, 24, 40, 0.02);
+    box-shadow: 0 10px 30px rgba(16, 24, 40, 0.08);
+}
+
